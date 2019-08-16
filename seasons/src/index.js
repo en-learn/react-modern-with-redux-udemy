@@ -6,7 +6,7 @@ const App = () => {
     position => console.log(position),
     err => console.log(err),
   );
-  return <div>Hello World!</div>;
+  return <div>Latitude: </div>;
 };
 
 ReactDOM.render(<App />, document.getElementById('root'));
