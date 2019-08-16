@@ -9,6 +9,10 @@ const App = () => {
   return (
     <div className="ui container comments">
       <ApprovalCard>
+        <h4>Approve all</h4>
+        <div>Approve all comments?</div>
+      </ApprovalCard>
+      <ApprovalCard>
         <CommentDetail
           author="Sam"
           timeAgo="Today at 4:45PM"
