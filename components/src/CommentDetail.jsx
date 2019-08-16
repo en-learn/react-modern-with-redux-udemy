@@ -1,7 +1,7 @@
 import React from "react";
 
 const CommentDetail = props => {
-  const { author, timeAgo, commentText, avatar } = props;
+  const { author, timeAgo, content, avatar } = props;
 
   return (
     <div className="comment">
@@ -15,7 +15,7 @@ const CommentDetail = props => {
         <div className="metadata">
           <span className="date">{timeAgo}</span>
         </div>
-        <div className="text">{commentText}</div>
+        <div className="text">{content}</div>
       </div>
     </div>
   );

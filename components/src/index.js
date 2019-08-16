@@ -10,19 +10,19 @@ const App = () => {
       <CommentDetail
         author="Sam"
         timeAgo="Today at 4:45PM"
-        commentText="Nice blog post!"
+        content="Nice blog post!"
         avatar={faker.image.avatar()}
       />
       <CommentDetail
         author="Alex"
         timeAgo="Today at 2:00PM"
-        commentText="I agree!"
+        content="I agree!"
         avatar={faker.image.avatar()}
       />
       <CommentDetail
         author="Jane"
         timeAgo="Today at 5:00PM"
-        commentText="You're awesome!"
+        content="You're awesome!"
         avatar={faker.image.avatar()}
       />
     </div>
